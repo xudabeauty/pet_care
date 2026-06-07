@@ -242,6 +242,15 @@ export default function Home() {
             <label htmlFor="petName">宠物昵称</label>
             <input id="petName" name="petName" placeholder="例如：奶盖" />
 
+            <label htmlFor="phone">预约手机号</label>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              inputMode="tel"
+              placeholder="例如：138 0000 0000"
+            />
+
             <label htmlFor="service">选择服务</label>
             <select id="service" name="service" defaultValue="精致护理">
               <option>精致护理</option>
